@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Turismos</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
-        </ul>
+        <div class="flex-container menu">
+            <div><h1>FlexTurismos</h1></div>
+            <ul class="list-items">
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </div>
     </header>
 
     <!--Bloco 1 da landing page-->
-    <div>
+    <div class="flex-container">
         <div>
             <h1>Flex <br>Turismos</h1>
             <p>O melhor serviço para você!</p>
@@ -30,7 +35,7 @@
     </div>
 
     <!--Bloco 2 da landing page-->
-    <div>
+    <div class="flex-container">
         <div>
             <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
         </div>
@@ -43,7 +48,7 @@
     </div>
 
     <!--Bloco 3 da landing page-->
-    <div>
+    <div class="flex-container">
         <div>
             <h2>Serviços</h2>
         </div>
@@ -71,7 +76,7 @@
     </div>
 
     <!--Bloco 4 da landing page-->
-    <div>
+    <div class="flex-container">
         <div>
             <h3>Plano 1</h3>
             <ul>
