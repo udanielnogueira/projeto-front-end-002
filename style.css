@@ -79,6 +79,7 @@ header .menu{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 #quem-somos h2{
     font-size: 32px;
@@ -117,20 +118,21 @@ header .menu{
 #servicos h2{
     color: #fff;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
+    font-weight: 500;
 }
 .list-servicos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .list-servicos .item-servico{
     text-align: center;
 }
 .item-servico p{
     color: white;
-    margin: 10px;
-    font-weight: 600;
-    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
 }
 .item-servico a{
     width: 220px;
@@ -139,9 +141,101 @@ header .menu{
     height: 50px;
     text-align: center;
     margin-top: 20px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: #122a57;
     text-decoration: none;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 700;
 }
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+
+}
+
+/*Parte 6*/
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#planos h2{
+    color: #122a57;
+    font-size: 32px;
+    margin: 40px;
+}
+
+.lista-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122a57;
+    margin-right: 20px;
+    max-width: 200px;
+    margin-right: 45px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #122a57;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.item-plano ul{
+    margin-bottom: 35px;
+    list-style: square;
+    color: #122a57;
+}
+
+.item-plano a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: #122a57;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #122a57;
+    color: white;
+}
+
+.lista-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+.lista-footer p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*Mobile*/
+
