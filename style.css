@@ -149,7 +149,6 @@ header .menu{
     font-size: 14px;
     font-weight: 700;
 }
-
 .item-servico img{
     width: 80%;
     margin: auto;
@@ -161,20 +160,17 @@ header .menu{
     flex-direction: column;
     min-height: 100vh;
 }
-
 #planos h2{
     color: #122a57;
     font-size: 32px;
     margin: 40px;
 }
-
 .lista-planos{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     margin-top: 50px;
 }
-
 .item-plano{
     flex: 1;
     border: 5px solid #122a57;
@@ -187,7 +183,6 @@ header .menu{
     justify-content: center;
     align-items: center;
 }
-
 .item-plano h3{
     font-size: 24px;
     margin-bottom: 50px;
@@ -195,7 +190,6 @@ header .menu{
     flex-direction: column;
     color: #122a57;
 }
-
 .item-plano h3::after{
     content: "";
     background-color: #122a57;
@@ -203,13 +197,11 @@ header .menu{
     height: 3px;
     margin-top: 20px;
 }
-
 .item-plano ul{
     margin-bottom: 35px;
     list-style: square;
     color: #122a57;
 }
-
 .item-plano a{
     list-style: none;
     text-decoration: none;
@@ -218,12 +210,10 @@ header .menu{
     padding: 5px 30px;
     border-radius: 30px;
 }
-
 footer{
     background-color: #122a57;
     color: white;
 }
-
 .lista-footer{
     display: flex;
     align-items: center;
@@ -232,7 +222,6 @@ footer{
     margin: auto;
     padding: 20px;
 }
-
 .lista-footer p{
     font-size: 13px;
     font-weight: 500;
@@ -244,39 +233,31 @@ footer{
         flex-direction: column;
 
     }
-
     .apresentacao{
         flex-direction: column-reverse;
     }
-
     .apresentacao .texto-apresentacao{
         width: 100%;
     }
-
     #quem-somos{
         flex-direction: column-reverse;
     }
-
     #quem-somos img{
         min-width: 320px;
         margin: auto;
     }
-
     .list-servicos{
         flex-direction: column;
     }
-
     .list-servicos img{
         width: 50%;
         margin: auto;
     }
-
     .lista-planos{
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 20px;
     }
-
     .lista-planos .item-plano{
         max-width: 90%;
         margin: auto;
