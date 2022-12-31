@@ -2,7 +2,7 @@
 
 💻 Projeto em HTML5 e CSS3.
 
-## Bio page
+## Landing page
 
 Landing page para uma empresa de Turismo.
 
